@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="/assets/favicon-32x32-DQjEQYWa.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/script.js" defer></script>
+    <title>TinyTie</title>
+    <link rel="stylesheet" crossorigin href="/assets/index-Df3oQifg.css">
+  </head>
+  <body>
+    <!-- Nav Container -->
+    <nav class="relative container mx-auto p-6">
+      <!-- Flex Container For All Items -->
+      <div class="flex items-center justify-between">
+        <!-- Flex Container For Logo/Menu -->
+        <div class="flex items-center space-x-20">
+          <!-- Logo -->
+          <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='121'%20height='33'%3e%3cpath%20fill='%2334313D'%20d='M16.715%207.932c-.068-.09-.306-.26-.714-.51s-.918-.51-1.53-.782-1.281-.51-2.006-.714a8.005%208.005%200%2000-2.176-.306c-1.995%200-2.992.669-2.992%202.006%200%20.408.107.748.323%201.02.215.272.532.516.952.731.419.215.946.414%201.58.595l1.406.393.805.219c1.156.317%202.198.663%203.128%201.037.929.374%201.717.839%202.363%201.394a5.647%205.647%200%20011.496%202.023c.35.793.527%201.745.527%202.856%200%201.36-.255%202.51-.765%203.451-.51.94-1.185%201.7-2.023%202.278-.84.578-1.802.997-2.89%201.258-1.088.26-2.21.391-3.366.391a19.68%2019.68%200%2001-5.44-.799c-.884-.26-1.74-.572-2.567-.935A14.358%2014.358%200%2001.53%2022.28l2.448-4.862c.09.113.385.329.884.646.498.317%201.116.635%201.853.952.736.317%201.558.6%202.465.85.906.25%201.824.374%202.754.374%201.972%200%202.958-.6%202.958-1.802%200-.453-.148-.827-.442-1.122-.295-.295-.703-.561-1.224-.799a12.455%2012.455%200%2000-1.504-.56l-1.702-.495-.976-.288c-1.111-.34-2.074-.708-2.89-1.105-.816-.397-1.49-.856-2.023-1.377a5.003%205.003%200%2001-1.19-1.802c-.261-.68-.391-1.473-.391-2.38%200-1.27.238-2.391.714-3.366a7.266%207.266%200%20011.938-2.465%208.435%208.435%200%20012.839-1.513c1.076-.34%202.215-.51%203.417-.51.838%200%201.666.08%202.482.238.816.159%201.598.363%202.346.612.748.25%201.445.533%202.09.85.647.317%201.242.635%201.786.952l-2.448%204.624zM40.139%2025h-5.44V14.97c0-1.156-.227-2.006-.68-2.55-.454-.544-1.077-.816-1.87-.816-.318%200-.663.074-1.037.221a4.173%204.173%200%2000-1.088.646%205.827%205.827%200%2000-.97%201.003%204.4%204.4%200%2000-.68%201.292V25h-5.44V.18h5.44v9.962a6.786%206.786%200%20012.602-2.465c1.076-.578%202.26-.867%203.553-.867%201.201%200%202.17.21%202.907.629.736.42%201.303.952%201.7%201.598.396.646.663%201.371.799%202.176.136.805.204%201.592.204%202.363V25zm12.34.34c-1.519%200-2.873-.25-4.063-.748-1.19-.499-2.193-1.173-3.01-2.023a8.54%208.54%200%2001-1.852-2.958%209.97%209.97%200%2001-.63-3.519c0-1.224.21-2.397.63-3.519a8.54%208.54%200%20011.853-2.958c.816-.85%201.819-1.53%203.009-2.04s2.544-.765%204.063-.765c1.519%200%202.867.255%204.046.765%201.179.51%202.176%201.19%202.992%202.04a8.754%208.754%200%20011.87%202.958%209.736%209.736%200%2001.646%203.519%209.97%209.97%200%2001-.63%203.519%208.54%208.54%200%2001-1.852%202.958c-.816.85-1.82%201.524-3.01%202.023-1.19.499-2.543.748-4.062.748zM48.5%2016.092c0%201.405.374%202.533%201.122%203.383.748.85%201.7%201.275%202.856%201.275a3.59%203.59%200%20001.564-.34c.476-.227.89-.544%201.24-.952a4.57%204.57%200%2000.834-1.479%205.632%205.632%200%2000.306-1.887c0-1.405-.374-2.533-1.122-3.383-.748-.85-1.689-1.275-2.822-1.275a3.702%203.702%200%2000-2.84%201.292%204.57%204.57%200%2000-.832%201.479%205.632%205.632%200%2000-.306%201.887zm27.776-4.284c-1.315.023-2.505.238-3.57.646-1.065.408-1.836%201.02-2.312%201.836V25h-5.44V7.15h4.998v3.604c.612-1.201%201.4-2.142%202.363-2.822.963-.68%201.989-1.031%203.077-1.054h.544c.113%200%20.227.011.34.034v4.896zm14.074%2012.24a21.71%2021.71%200%2001-2.567.884c-.963.272-1.932.408-2.907.408-.68%200-1.32-.085-1.92-.255a4.286%204.286%200%2001-1.582-.816c-.453-.374-.81-.867-1.07-1.479-.262-.612-.392-1.349-.392-2.21v-9.316h-2.278V7.15h2.278V1.472h5.44V7.15h3.638v4.114h-3.638v7.446c0%20.59.147%201.014.442%201.275.295.26.669.391%201.122.391.408%200%20.827-.068%201.258-.204.43-.136.805-.283%201.122-.442l1.054%204.318zM92.627.18h5.44v18.462c0%201.36.578%202.04%201.734%202.04.272%200%20.572-.04.901-.119.329-.08.63-.198.901-.357l.714%204.08c-.68.317-1.462.567-2.346.748-.884.181-1.711.272-2.482.272-1.564%200-2.765-.408-3.604-1.224-.839-.816-1.258-1.995-1.258-3.536V.18zm11.456%2027.506c.454.159.879.272%201.275.34a6.4%206.4%200%20001.071.102c.658%200%201.168-.227%201.53-.68.363-.453.692-1.27.986-2.448l-6.8-17.85h5.61l4.148%2013.192%203.57-13.192h5.1l-6.8%2020.74a7.106%207.106%200%2001-2.55%203.587c-1.224.918-2.674%201.377-4.352%201.377a8.17%208.17%200%2001-1.377-.119%207.516%207.516%200%2001-1.41-.391v-4.658z'/%3e%3c/svg%3e" alt="" />
+          <!-- Left Menu -->
+          <div class="hidden space-x-8 font-bold lg:flex">
+            <a href="#" class="text-grayishViolet hover:text-veryDarkViolet"
+              >Features</a
+            >
+            <a href="#" class="text-grayishViolet hover:text-veryDarkViolet"
+              >Pricing</a
+            >
+            <a href="#" class="text-grayishViolet hover:text-veryDarkViolet"
+              >Resources</a
+            >
+          </div>
+        </div>
+
+        <!-- Right Buttons Menu -->
+        <div
+          class="hidden items-center space-x-6 font-bold text-grayishViolet lg:flex"
+        >
+          <div class="hover:text-veryDarkViolet">Login</div>
+          <a
+            href="#"
+            class="px-8 py-3 font-bold text-white bg-cyan rounded-full hover:opacity-70"
+            >Sign Up</a
+          >
+        </div>
+
+        <!-- Hamburger Button -->
+        <button
+          id="menu-btn"
+          class="block hamburger lg:hidden focus:outline-none"
+          type="button"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        id="menu"
+        class="absolute hidden p-6 rounded-lg bg-darkViolet left-6 right-6 top-20 z-100"
+      >
+        <div
+          class="flex flex-col items-center justify-center w-full space-y-6 font-bold text-white rounded-sm"
+        >
+          <a href="#" class="w-full text-center">Features</a>
+          <a href="#" class="w-full text-center">Pricing</a>
+          <a href="#" class="w-full text-center">Resources</a>
+          <a href="#" class="w-full pt-6 border-t border-gray-400 text-center"
+            >Login</a
+          >
+          <a href="#" class="w-full py-3 text-center rounded-full bg-cyan"
+            >Sign Up</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <!-- Hero Container -->
+      <div class="container flex flex-col-reverse mx-auto p-6 lg:flex-row">
+        <!-- Content Container -->
+        <div class="flex flex-col space-y-10 mb-44 lg:mt-16 lg:w-1/2 xl:mb-52">
+          <h1
+            class="text-5xl font-bold text-center lg:text-6xl lg:max-w-md lg:text-left"
+          >
+            More than just shorter links
+          </h1>
+          <p
+            class="text-2xl text-center text-gray-400 lg:max-w-md lg:text-left"
+          >
+            Build your brand's recognition and get detailed insights on how your
+            links are performing.
+          </p>
+          <div class="mx-auto lg:mx-0">
+            <a
+              href="#"
+              class="py-5 px-10 text-2xl font-bold text-white bg-cyan rounded-full lg:py-4 hover:opacity-70"
+              >Get Started</a
+            >
+          </div>
+        </div>
+
+        <!-- Image -->
+        <div class="mb-24 mx-auto md:w-180 lg:mb-0 lg:w-1/2">
+          <img src="/assets/illustration-working-DTaLafQ1.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Shorten Section -->
+    <section id="shorten" class="relative bg-gray-100">
+      <!-- Shorten Container -->
+      <div class="max-w-4xl mx-auto p-6 space-y-6">
+        <!-- Form -->
+        <form
+          id="link-form"
+          class="relative flex flex-col w-full p-10 -mt-20 space-y-4 bg-darkViolet rounded-lg md:flex-row md:space-y-0 md:space-x-3"
+        >
+          <input
+            type="text"
+            class="flex-1 p-3 border-2 rounded-lg placeholder-yellow-500 focus:outline-none"
+            placeholder="Shorten a link here"
+            id="link-input"
+          />
+
+          <button
+            class="px-10 py-3 text-white bg-cyan rounded-lg hover:bg-cyanLight focus:outline-none md:py-2"
+          >
+            Shorten It!
+          </button>
+
+          <!-- Error Message -->
+          <div
+            id="err-msg"
+            class="absolute left-7 bottom-3 text-red text-sm italic"
+          ></div>
+        </form>
+
+        <!-- Link 1 -->
+        <div
+          class="flex flex-col items-center justify-between w-full p-6 bg-white rounded-lg md:flex-row"
+        >
+          <p class="font-bold text-center text-veryDarkViolet md:text-left">
+            https://frontendmentor.io
+          </p>
+
+          <div
+            class="flex flex-col items-center justify-end flex-1 space-x-4 space-y-2 md:flex-row md:space-y-0"
+          >
+            <div class="font-bold text-cyan">https://rel.ink/k4IKyk</div>
+            <button
+              class="p-2 px-8 text-white bg-cyan rounded-lg hover:opacity-70 focus:outline-none"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <!-- Link 2 -->
+        <div
+          class="flex flex-col items-center justify-between w-full p-6 bg-white rounded-lg md:flex-row"
+        >
+          <p class="font-bold text-center text-veryDarkViolet md:text-left">
+            https://twitter.com/frontendmentor
+          </p>
+
+          <div
+            class="flex flex-col items-center justify-end flex-1 space-x-4 space-y-2 md:flex-row md:space-y-0"
+          >
+            <div class="font-bold text-cyan">https://rel.ink/gxOXp9</div>
+            <button
+              class="p-2 px-8 text-white bg-darkViolet rounded-lg hover:opacity-70 focus:outline-none"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <!-- Link 3 -->
+        <div
+          class="flex flex-col items-center justify-between w-full p-6 bg-white rounded-lg md:flex-row"
+        >
+          <p class="font-bold text-center text-veryDarkViolet md:text-left">
+            https://linkedin.com/frontend-mentor
+          </p>
+
+          <div
+            class="flex flex-col items-center justify-end flex-1 space-x-4 space-y-2 md:flex-row md:space-y-0"
+          >
+            <div class="font-bold text-cyan">https://rel.ink/gob3X9</div>
+            <button
+              class="p-2 px-8 text-white bg-cyan rounded-lg hover:opacity-70 focus:outline-none"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="py-24 bg-gray-100">
+      <div class="container mx-auto px-3">
+        <h2 class="text-4xl mb-6 font-bold text-center">Advanced Statistics</h2>
+        <p class="max-w-xs mx-auto text-center text-gray-400 md:max-w-md">
+          Track how your links are performing across the web with our advanced
+          statistics dashboard.
+        </p>
+      </div>
+    </section>
+
+    <!-- Feature Box Section -->
+    <section id="features" class="pb-32 bg-gray-100">
+      <div
+        class="relative container flex flex-col items-start px-6 mx-auto md:flex-row md:space-x-7"
+      >
+        <!-- Horizontal Line -->
+        <div
+          class="hidden absolute top-24 w-10/12 left-16 h-3 bg-cyan md:block"
+        ></div>
+        <!-- Vertical Line -->
+        <div class="absolute w-2 left-1/2 h-full -ml-1 bg-cyan md:hidden"></div>
+
+        <!-- Box 1 -->
+        <div
+          class="relative flex flex-col p-6 space-y-6 bg-white rounded-lg md:w-1/3"
+        >
+          <!-- Image Positioning -->
+          <div class="absolute -ml-10 left-1/2 -top-10 md:left-16">
+            <!-- Image Container For Background & Center -->
+            <div
+              class="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-veryDarkViolet"
+            >
+              <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='40'%20height='40'%3e%3cpath%20fill='%232BD0D0'%20d='M36.406%2011.719c.648%200%201.172.524%201.172%201.172v24.765h1.25a1.172%201.172%200%20110%202.344H1.172a1.172%201.172%200%20110-2.344h1.25V24.61c0-.647.524-1.172%201.172-1.172H8.28c.648%200%201.172.525%201.172%201.172v13.047h2.344v-8.36c0-.646.524-1.171%201.172-1.171h4.687c.648%200%201.172.525%201.172%201.172v8.36h2.344V19.921c0-.647.524-1.172%201.172-1.172h4.687c.648%200%201.172.525%201.172%201.172v17.734h2.344V12.891c0-.648.524-1.172%201.172-1.172zm-1.172%202.344h-2.343v23.593h2.343V14.063zm-9.375%207.03h-2.343v16.563h2.343V21.094zm-9.375%209.376h-2.343v7.187h2.343V30.47zM7.11%2025.78H4.766v11.875h2.343V25.781zM34.062%200a3.52%203.52%200%20013.516%203.516%203.52%203.52%200%2001-3.516%203.515c-.72%200-1.389-.217-1.947-.59l-4.073%203.055a3.52%203.52%200%2001-3.355%204.567%203.496%203.496%200%2001-1.514-.344l-4.689%204.688c.22.459.344.973.344%201.515a3.52%203.52%200%2001-3.515%203.515%203.52%203.52%200%2001-3.488-3.949l-3.45-1.724a3.503%203.503%200%2001-2.438.986%203.52%203.52%200%2001-3.515-3.516%203.52%203.52%200%20013.515-3.515%203.52%203.52%200%20013.488%203.949l3.45%201.725a3.503%203.503%200%20013.952-.643l4.689-4.688a3.496%203.496%200%2001-.344-1.515%203.52%203.52%200%20013.515-3.516c.72%200%201.39.218%201.948.59l4.073-3.054A3.52%203.52%200%200134.063%200zm-18.75%2018.75c-.646%200-1.171.526-1.171%201.172%200%20.646.525%201.172%201.171%201.172.647%200%201.172-.526%201.172-1.172%200-.646-.525-1.172-1.172-1.172zm-9.374-4.688c-.647%200-1.172.526-1.172%201.172%200%20.646.525%201.172%201.171%201.172.647%200%201.172-.526%201.172-1.172%200-.646-.525-1.171-1.171-1.171zm18.75-4.687c-.647%200-1.172.526-1.172%201.172%200%20.646.525%201.172%201.172%201.172.646%200%201.171-.526%201.171-1.172%200-.646-.525-1.172-1.172-1.172zm9.375-7.031c-.647%200-1.172.526-1.172%201.172%200%20.646.525%201.171%201.172%201.171.646%200%201.171-.525%201.171-1.171s-.525-1.172-1.172-1.172z'/%3e%3c/svg%3e" alt="" />
+            </div>
+          </div>
+          <h5
+            class="pt-6 text-xl font-bold text-center capitalize md:text-left"
+          >
+            Brand Recognition
+          </h5>
+          <p class="text-center text-gray-400 md:text-left">
+            Boost your brand recognition with each click. Generic links don't
+            mean a thing. Branded links help instil confidence in your content.
+          </p>
+        </div>
+
+        <!-- Box 2 -->
+        <div
+          class="relative flex flex-col mt-24 p-6 space-y-6 bg-white rounded-lg md:mt-8 md:w-1/3"
+        >
+          <!-- Image Positioning -->
+          <div class="absolute -ml-10 left-1/2 -top-10 md:left-16">
+            <!-- Image Container For Background & Center -->
+            <div
+              class="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-veryDarkViolet"
+            >
+              <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='40'%20height='40'%3e%3cpath%20fill='%232BD0D0'%20d='M19.968%200c11.01%200%2019.969%208.958%2019.969%2019.968s-8.958%2019.969-19.969%2019.969C8.958%2039.937%200%2030.979%200%2019.968%200%208.958%208.958%200%2019.968%200zm7.805%2035.579c-4.863-2.402-10.746-2.402-15.609%200a17.339%2017.339%200%20007.804%201.862%2017.34%2017.34%200%20007.805-1.862zm-6.556-33.02V6.24H18.72V2.56a17.362%2017.362%200%2000-9.492%203.656l2.798%202.797-1.765%201.765L7.373%207.89a17.41%2017.41%200%2000-4.678%209.582h4.793v2.497H2.496c0%205.805%202.857%2010.943%207.227%2014.122%206.217-3.714%2014.274-3.714%2020.49%200%204.37-3.179%207.228-8.317%207.228-14.123h-4.992v-2.496h4.793a17.41%2017.41%200%2000-4.678-9.582l-2.888%202.888-1.765-1.765%202.798-2.797a17.362%2017.362%200%2000-9.492-3.657zm-2.437%208.292c.332-1.034%202.045-1.034%202.377%200%20.635%201.978%203.804%2011.955%203.804%2014.11a4.997%204.997%200%2001-4.993%204.992%204.997%204.997%200%2001-4.992-4.992c0-2.155%203.17-12.132%203.804-14.11zm1.188%204.567c-1.233%204.047-2.496%208.522-2.496%209.543a2.5%202.5%200%20002.496%202.496%202.5%202.5%200%20002.497-2.496c0-1.02-1.263-5.496-2.497-9.543z'/%3e%3c/svg%3e" alt="" />
+            </div>
+          </div>
+          <h5
+            class="pt-6 text-xl font-bold text-center capitalize md:text-left"
+          >
+            Detailed records
+          </h5>
+          <p class="text-center text-gray-400 md:text-left">
+            Gain insights into who is clicking your links. Knowing when and
+            where people engage with your content helps inform better decisions.
+          </p>
+        </div>
+
+        <!-- Box 3 -->
+        <div
+          class="relative flex flex-col mt-24 p-6 space-y-6 bg-white rounded-lg md:mt-16 md:w-1/3"
+        >
+          <!-- Image Positioning -->
+          <div class="absolute -ml-10 left-1/2 -top-10 md:left-16">
+            <!-- Image Container For Background & Center -->
+            <div
+              class="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-veryDarkViolet"
+            >
+              <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='48'%20height='48'%3e%3cpath%20fill='%232BD0D0'%20d='M46.608%206.02a.975.975%200%2000-.927-.047l-7.624%203.591a8.283%208.283%200%2000-4.728%206.837l-.196%202.436-3.95%206.561v-2.801c0-.01-.006-.017-.006-.027a.974.974%200%2000-.046-.284l-1.838-5.514%203.753-7.504a.984.984%200%2000-.099-1.03l-5.9-7.867a1.019%201.019%200%2000-1.573%200L17.573%208.24a.984.984%200%2000-.093%201.03l3.753%207.503-1.838%205.514a.974.974%200%2000-.047.284v3.951l-6.127-9.299c-.007-.01-.02-.017-.026-.026a.995.995%200%2000-.211-.215c-.02-.013-.036-.03-.056-.042-.02-.013-.022-.02-.035-.027l-3.605-2.085-1.497-2.271L5.628%209.27a.983.983%200%2000-1.147-.386L.654%2010.227a.983.983%200%2000-.491%201.468l2.705%204.107%201.492%202.27.492%204.137a.36.36%200%2000.01.04c.004.02.009.041.015.061a.973.973%200%2000.116.295c.007.01.007.023.014.033.007.01%2014.624%2022.165%2014.695%2022.225A4.87%204.87%200%200024.255%2048c.4%200%20.8-.05%201.19-.145a4.886%204.886%200%20003.028-2.235l13.08-21.698%202.065-1.307a8.343%208.343%200%20002.66-2.721%208.259%208.259%200%20001.18-4.651l-.383-8.42a.984.984%200%2000-.467-.803zm-7.122%2017.524l-1.522%202.527-5.054-3.048%201.524-2.527%205.052%203.048zM21.315%2038.446V23.58h5.9v5.08l-5.9%209.786zm1.693-20.766h2.515l1.31%203.933h-5.136l1.31-3.933zm1.257-6.885a.983.983%200%20110-1.966.983.983%200%20010%201.966zm0-8.194l4.75%206.331-3.39%206.78h-.377v-3.13a2.95%202.95%200%2010-1.966%200v3.13h-.376l-3.39-6.78%204.75-6.331zM10.53%2017.818l-.29.19-3.621%202.387-.333-2.787a.982.982%200%2000-.156-.424l-1.081-1.642L6.69%2014.46l1.081%201.642a.988.988%200%2000.329.31l2.429%201.406zm-6.122-6.826l1.2%201.822-1.642%201.082-1.475-2.232%201.917-.672zm5.249%209.755l2.458-1.624%207.233%2010.972v10.726L7.193%2022.371l2.464-1.624zm17.135%2023.851a2.95%202.95%200%2011-5.052-3.048l7.425-12.315h.017v-.027l2.712-4.499%202.527%201.526%202.53%201.52-10.16%2016.843zm17.807-25.724a6.353%206.353%200%2001-2.028%202.073l-1.747%201.107-2.852-1.717-2.852-1.717.162-2.065a6.318%206.318%200%20013.604-5.213L45.18%208.38l.125%202.74a.973.973%200%2000-.295.014l-2.382.59a5.986%205.986%200%2000-4.425%204.524.983.983%200%20001.919.43%204.032%204.032%200%20012.977-3.043l2.297-.57.103%202.262a6.304%206.304%200%2001-.9%203.548z'/%3e%3c/svg%3e" alt="" />
+            </div>
+          </div>
+          <h5
+            class="pt-6 text-xl font-bold text-center capitalize md:text-left"
+          >
+            Fully customizable
+          </h5>
+          <p class="text-center text-gray-400 md:text-left">
+            Improve brand awareness and content discoverability through
+            customizable links, supercharging audience engagement.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="py-24 bg-darkViolet">
+      <div class="flex flex-col p-2 space-y-6">
+        <h5
+          class="mx-auto space-y-10 text-4xl font-bold text-center text-white"
+        >
+          Boost your links today
+        </h5>
+        <button
+          class="px-10 py-5 mx-auto text-2xl font-bold text-white rounded-full bg-cyan hover:bg-cyanLlight md:text-base md:py-3 focus:outline-none"
+        >
+          Get Started
+        </button>
+      </div>
+    </section>
+
+    <footer class="py-16 bg-veryDarkViolet">
+      <div
+        class="container flex flex-col items-center justify-between mx-auto space-y-16 md:flex-row md:space-y-0 md:items-start"
+      >
+        <!-- Logo -->
+        <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='121'%20height='33'%3e%3cpath%20fill='%2334313D'%20d='M16.715%207.932c-.068-.09-.306-.26-.714-.51s-.918-.51-1.53-.782-1.281-.51-2.006-.714a8.005%208.005%200%2000-2.176-.306c-1.995%200-2.992.669-2.992%202.006%200%20.408.107.748.323%201.02.215.272.532.516.952.731.419.215.946.414%201.58.595l1.406.393.805.219c1.156.317%202.198.663%203.128%201.037.929.374%201.717.839%202.363%201.394a5.647%205.647%200%20011.496%202.023c.35.793.527%201.745.527%202.856%200%201.36-.255%202.51-.765%203.451-.51.94-1.185%201.7-2.023%202.278-.84.578-1.802.997-2.89%201.258-1.088.26-2.21.391-3.366.391a19.68%2019.68%200%2001-5.44-.799c-.884-.26-1.74-.572-2.567-.935A14.358%2014.358%200%2001.53%2022.28l2.448-4.862c.09.113.385.329.884.646.498.317%201.116.635%201.853.952.736.317%201.558.6%202.465.85.906.25%201.824.374%202.754.374%201.972%200%202.958-.6%202.958-1.802%200-.453-.148-.827-.442-1.122-.295-.295-.703-.561-1.224-.799a12.455%2012.455%200%2000-1.504-.56l-1.702-.495-.976-.288c-1.111-.34-2.074-.708-2.89-1.105-.816-.397-1.49-.856-2.023-1.377a5.003%205.003%200%2001-1.19-1.802c-.261-.68-.391-1.473-.391-2.38%200-1.27.238-2.391.714-3.366a7.266%207.266%200%20011.938-2.465%208.435%208.435%200%20012.839-1.513c1.076-.34%202.215-.51%203.417-.51.838%200%201.666.08%202.482.238.816.159%201.598.363%202.346.612.748.25%201.445.533%202.09.85.647.317%201.242.635%201.786.952l-2.448%204.624zM40.139%2025h-5.44V14.97c0-1.156-.227-2.006-.68-2.55-.454-.544-1.077-.816-1.87-.816-.318%200-.663.074-1.037.221a4.173%204.173%200%2000-1.088.646%205.827%205.827%200%2000-.97%201.003%204.4%204.4%200%2000-.68%201.292V25h-5.44V.18h5.44v9.962a6.786%206.786%200%20012.602-2.465c1.076-.578%202.26-.867%203.553-.867%201.201%200%202.17.21%202.907.629.736.42%201.303.952%201.7%201.598.396.646.663%201.371.799%202.176.136.805.204%201.592.204%202.363V25zm12.34.34c-1.519%200-2.873-.25-4.063-.748-1.19-.499-2.193-1.173-3.01-2.023a8.54%208.54%200%2001-1.852-2.958%209.97%209.97%200%2001-.63-3.519c0-1.224.21-2.397.63-3.519a8.54%208.54%200%20011.853-2.958c.816-.85%201.819-1.53%203.009-2.04s2.544-.765%204.063-.765c1.519%200%202.867.255%204.046.765%201.179.51%202.176%201.19%202.992%202.04a8.754%208.754%200%20011.87%202.958%209.736%209.736%200%2001.646%203.519%209.97%209.97%200%2001-.63%203.519%208.54%208.54%200%2001-1.852%202.958c-.816.85-1.82%201.524-3.01%202.023-1.19.499-2.543.748-4.062.748zM48.5%2016.092c0%201.405.374%202.533%201.122%203.383.748.85%201.7%201.275%202.856%201.275a3.59%203.59%200%20001.564-.34c.476-.227.89-.544%201.24-.952a4.57%204.57%200%2000.834-1.479%205.632%205.632%200%2000.306-1.887c0-1.405-.374-2.533-1.122-3.383-.748-.85-1.689-1.275-2.822-1.275a3.702%203.702%200%2000-2.84%201.292%204.57%204.57%200%2000-.832%201.479%205.632%205.632%200%2000-.306%201.887zm27.776-4.284c-1.315.023-2.505.238-3.57.646-1.065.408-1.836%201.02-2.312%201.836V25h-5.44V7.15h4.998v3.604c.612-1.201%201.4-2.142%202.363-2.822.963-.68%201.989-1.031%203.077-1.054h.544c.113%200%20.227.011.34.034v4.896zm14.074%2012.24a21.71%2021.71%200%2001-2.567.884c-.963.272-1.932.408-2.907.408-.68%200-1.32-.085-1.92-.255a4.286%204.286%200%2001-1.582-.816c-.453-.374-.81-.867-1.07-1.479-.262-.612-.392-1.349-.392-2.21v-9.316h-2.278V7.15h2.278V1.472h5.44V7.15h3.638v4.114h-3.638v7.446c0%20.59.147%201.014.442%201.275.295.26.669.391%201.122.391.408%200%20.827-.068%201.258-.204.43-.136.805-.283%201.122-.442l1.054%204.318zM92.627.18h5.44v18.462c0%201.36.578%202.04%201.734%202.04.272%200%20.572-.04.901-.119.329-.08.63-.198.901-.357l.714%204.08c-.68.317-1.462.567-2.346.748-.884.181-1.711.272-2.482.272-1.564%200-2.765-.408-3.604-1.224-.839-.816-1.258-1.995-1.258-3.536V.18zm11.456%2027.506c.454.159.879.272%201.275.34a6.4%206.4%200%20001.071.102c.658%200%201.168-.227%201.53-.68.363-.453.692-1.27.986-2.448l-6.8-17.85h5.61l4.148%2013.192%203.57-13.192h5.1l-6.8%2020.74a7.106%207.106%200%2001-2.55%203.587c-1.224.918-2.674%201.377-4.352%201.377a8.17%208.17%200%2001-1.377-.119%207.516%207.516%200%2001-1.41-.391v-4.658z'/%3e%3c/svg%3e" alt="" />
+
+        <!-- Menus Container -->
+        <div
+          class="flex flex-col space-y-16 md:space-x-20 md:flex-row md:space-y-0"
+        >
+          <!-- Menu 1 -->
+          <div class="flex flex-col items-center w-full md:items-start">
+            <div class="mb-5 font-bold text-white capitalize">Features</div>
+            <div class="flex flex-col items-center space-y-3 md:items-start">
+              <a href="#" class="capitalize text-grayishViolet hover:text-cyan"
+                >Link shortening</a
+              >
+              <a href="#" class="capitalize text-grayishViolet hover:text-cyan"
+                >Branded links</a
+              >
+              <a href="#" class="capitalize text-grayishViolet hover:text-cyan"
+                >Analytics</a
+              >
+            </div>
+          </div>
+
+          <!-- Menu 2 -->
+          <div class="flex flex-col items-center w-full md:items-start">
+            <div class="mb-5 font-bold text-white capitalize">Resources</div>
+            <div class="flex flex-col items-center space-y-3 md:items-start">
+              <a href="#" class="capitalize text-grayishViolet hover:text-cyan"
+                >Blog</a
+              >
+              <a href="#" class="capitalize text-grayishViolet hover:text-cyan"
+                >Developers</a
+              >
+              <a href="#" class="capitalize text-grayishViolet hover:text-cyan"
+                >Support</a
+              >
+            </div>
+          </div>
+
+          <!-- Menu 3 -->
+          <div class="flex flex-col items-center w-full md:items-start">
+            <div class="mb-5 font-bold text-white capitalize">Company</div>
+            <div class="flex flex-col items-center space-y-3 md:items-start">
+              <a href="#" class="capitalize text-grayishViolet hover:text-cyan"
+                >About</a
+              >
+              <a href="#" class="capitalize text-grayishViolet hover:text-cyan"
+                >Our Team</a
+              >
+              <a href="#" class="capitalize text-grayishViolet hover:text-cyan"
+                >Careers</a
+              >
+              <a href="#" class="capitalize text-grayishViolet hover:text-cyan"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Social Container -->
+        <div class="flex space-x-6">
+          <a href="#">
+            <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%3e%3cpath%20fill='%23FFF'%20d='M22.675%200H1.325C.593%200%200%20.593%200%201.325v21.351C0%2023.407.593%2024%201.325%2024H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1%201.893-4.788%204.659-4.788%201.325%200%202.463.099%202.795.143v3.24l-1.918.001c-1.504%200-1.795.715-1.795%201.763v2.313h3.587l-.467%203.622h-3.12V24h6.116c.73%200%201.323-.593%201.323-1.325V1.325C24%20.593%2023.407%200%2022.675%200z'/%3e%3c/svg%3e" alt="" class="ficon" />
+          </a>
+          <a href="#">
+            <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='20'%3e%3cpath%20fill='%23FFF'%20d='M24%202.557a9.83%209.83%200%2001-2.828.775A4.932%204.932%200%200023.337.608a9.864%209.864%200%2001-3.127%201.195A4.916%204.916%200%200016.616.248c-3.179%200-5.515%202.966-4.797%206.045A13.978%2013.978%200%20011.671%201.149a4.93%204.93%200%20001.523%206.574%204.903%204.903%200%2001-2.229-.616c-.054%202.281%201.581%204.415%203.949%204.89a4.935%204.935%200%2001-2.224.084%204.928%204.928%200%20004.6%203.419A9.9%209.9%200%20010%2017.54a13.94%2013.94%200%20007.548%202.212c9.142%200%2014.307-7.721%2013.995-14.646A10.025%2010.025%200%200024%202.557z'/%3e%3c/svg%3e" alt="" class="ficon" />
+          </a>
+          <a href="#">
+            <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%3e%3cpath%20fill='%23FFF'%20d='M12%200C5.373%200%200%205.372%200%2012c0%205.084%203.163%209.426%207.627%2011.174-.105-.949-.2-2.405.042-3.441.218-.937%201.407-5.965%201.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914%202.171-2.914%201.023%200%201.518.769%201.518%201.69%200%201.029-.655%202.568-.994%203.995-.283%201.194.599%202.169%201.777%202.169%202.133%200%203.772-2.249%203.772-5.495%200-2.873-2.064-4.882-5.012-4.882-3.414%200-5.418%202.561-5.418%205.207%200%201.031.397%202.138.893%202.738a.36.36%200%2001.083.345l-.333%201.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649%200-3.785%202.75-7.262%207.929-7.262%204.163%200%207.398%202.967%207.398%206.931%200%204.136-2.607%207.464-6.227%207.464-1.216%200-2.359-.631-2.75-1.378l-.748%202.853c-.271%201.043-1.002%202.35-1.492%203.146C9.57%2023.812%2010.763%2024%2012%2024c6.627%200%2012-5.373%2012-12%200-6.628-5.373-12-12-12z'/%3e%3c/svg%3e" alt="" class="ficon" />
+          </a>
+          <a href="#">
+            <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%3e%3cpath%20fill='%23FFF'%20d='M12%202.163c3.204%200%203.584.012%204.85.07%203.252.148%204.771%201.691%204.919%204.919.058%201.265.069%201.645.069%204.849%200%203.205-.012%203.584-.069%204.849-.149%203.225-1.664%204.771-4.919%204.919-1.266.058-1.644.07-4.85.07-3.204%200-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849%200-3.204.013-3.583.07-4.849.149-3.227%201.664-4.771%204.919-4.919%201.266-.057%201.645-.069%204.849-.069zM12%200C8.741%200%208.333.014%207.053.072%202.695.272.273%202.69.073%207.052.014%208.333%200%208.741%200%2012c0%203.259.014%203.668.072%204.948.2%204.358%202.618%206.78%206.98%206.98C8.333%2023.986%208.741%2024%2012%2024c3.259%200%203.668-.014%204.948-.072%204.354-.2%206.782-2.618%206.979-6.98.059-1.28.073-1.689.073-4.948%200-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014%2015.259%200%2012%200zm0%205.838a6.162%206.162%200%20100%2012.324%206.162%206.162%200%20000-12.324zM12%2016a4%204%200%20110-8%204%204%200%20010%208zm6.406-11.845a1.44%201.44%200%20100%202.881%201.44%201.44%200%20000-2.881z'/%3e%3c/svg%3e" alt="" class="ficon" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
